@@ -1,0 +1,11 @@
+{
+  "name": "brief-3",
+  "version": "1.0.0",
+  "description": "Une application backend efficace développée avec Node.js, Express.js et MongoDB pour la gestion des tâches. Elle permet aux utilisateurs d'effectuer des opérations CRUD, notamment l'ajout, la consultation, la mise à jour et la suppression de tâches, avec des données stockées de manière sécurisée dans une base de données MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

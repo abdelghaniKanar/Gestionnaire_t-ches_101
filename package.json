@@ -4,8 +4,18 @@
   "description": "Une application backend efficace développée avec Node.js, Express.js et MongoDB pour la gestion des tâches. Elle permet aux utilisateurs d'effectuer des opérations CRUD, notamment l'ajout, la consultation, la mise à jour et la suppression de tâches, avec des données stockées de manière sécurisée dans une base de données MongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }

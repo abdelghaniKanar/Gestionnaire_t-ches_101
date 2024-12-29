@@ -20,6 +20,10 @@ const port = 3000;
 // However, when we use Body Parser, it automatically parses this JSON data into a JavaScript object, making it accessible via req.body.
 app.use(express.json());
 
+// Import and use the CRUD routes
+const crudRoutes = require("./routes/crud");
+app.use("/api", crudRoutes);
+
 // Start the server and make it listen on the defined port
 // The callback logs a message to confirm the server is running and accessible
 app.listen(port, () =>

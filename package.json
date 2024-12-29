@@ -1,7 +1,7 @@
 {
   "name": "brief-3",
   "version": "1.0.0",
-  "description": "Une application backend efficace développée avec Node.js, Express.js et MongoDB pour la gestion des tâches. Elle permet aux utilisateurs d'effectuer des opérations CRUD, notamment l'ajout, la consultation, la mise à jour et la suppression de tâches, avec des données stockées de manière sécurisée dans une base de données MongoDB.",
+  "description": "Le projet **Gestionnaire_t-ches_101** est une application backend permettant de gérer des tâches. Cette application permet aux utilisateurs de créer, lire, mettre à jour et supprimer des tâches. Les tâches sont stockées dans une base de données MongoDB, et l'application expose des endpoints API pour interagir avec ces données.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

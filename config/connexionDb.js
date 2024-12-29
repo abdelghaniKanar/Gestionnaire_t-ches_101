@@ -1,10 +1,11 @@
 // Import the mongoose library to interact with MongoDB
+// Mongoose provides a simple way to interact with MongoDB, including schema-based validation, easy CRUD operations
 const mongoose = require("mongoose");
 
 // Define a separate function for connecting to the MongoDB database
 // This approach centralizes the database configuration and allows us to handle errors consistently.
 const connexionDB = async () => {
-  console.log("Attempting to connect to MongoDB...");
+  console.log("Tentative de connexion à MongoDB...");
   try {
     // Use mongoose.connect to establish a connection to MongoDB
     // - 'mongodb://localhost:27017/taskManager': The connection string specifying:
@@ -30,10 +31,10 @@ const connexionDB = async () => {
     // we ensure MongoDB uses IPv4 for the connection, which is typically more stable and widely supported.
 
     // Log a success message when the connection is established.
-    console.log("MongoDB Connected");
+    console.log("MongoDB Connecté");
   } catch (error) {
     // Catch and handle any errors that occur during the connection process.
-    console.error("Error connecting to MongoDB:", error.message);
+    console.error("Erreur de connexion à MongoDB :", error.message);
     // Exit the process if the connection fails.
     // process.exit(1) signals an error and stops the application.
     process.exit(1);
